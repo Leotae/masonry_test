@@ -1,0 +1,28 @@
+#columns{
+			column-width: 350px;/*최소 너비를 의미한다*/
+			column-gap: 15px;
+		}
+		#columns figure{
+			display: inline-block;
+			border: 1px solid rgba(0,0,0,0.2);
+			margin: 0;
+			margin-bottom: 15px;
+			padding: 10px;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+		}
+	
+	  	#columns figure img{
+		  width: 100%;
+	  	}
+    
+		#columns figure figcaption{
+			border-top: 1px solid rgba(0,0,0,0.2);
+			padding: 10px;
+			margin-top: 11px;
+		}
+		
+		#columns:hover figure:not(:hover) {
+			opacity: 0.9;
+		}
+
+/*https://medium.com/@andybarefoot/a-masonry-style-layout-using-css-grid-8c663d355ebb*/
